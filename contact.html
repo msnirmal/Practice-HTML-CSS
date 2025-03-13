@@ -7,15 +7,52 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header id="head">
-        <h1>MyStore</h1>
+    <header>
+        <a href="index.html">
+            <div class="logo">
+                MyLogo
+            </div>
+        </a>
         <nav>
             <a href="index.html">Home</a>
-            <a href="">Details</a>
+            <a href="#">Details</a>
             <a href="contact.html">ContactUs</a>
         </nav>
-    </header>
-    <!--form to be added here-->
+    </header>   
+    <section>
+        <form action="#">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+
+            <label for="email">email</label>
+            <input type="text" id="email">
+
+            <label for="message">Your Message</label>
+            <textarea name="message" id="message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <table border="1">
+            <tr>
+                <th colspan="2">Hours of Operation</th>
+            </tr>
+
+            <tr>
+                <td>Mon-Fri</td>
+                <td>09:00AM to 05:00PM</td>
+            </tr>
+
+            <tr>
+                <td>Saturdays</td>
+                <td>09:00AM to 03:00PM</td>
+            </tr>
+
+            <tr>
+                <td>Sundays</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+    </section>
     <footer> 
         &copy;
         <script>

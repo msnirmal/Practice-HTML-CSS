@@ -7,8 +7,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    border: 1px solid;
+    width: 100%;    
     height: 120px;
     padding: 20px;
     background: rgb(164, 160, 160,0.8);
@@ -39,4 +38,55 @@ nav {
     width: 30%;
     justify-content: space-around;
     align-items: center;
+}
+
+.hero{
+    width: 100%;
+    height: 400px;    
+    background: url(../css/images/HeroImage1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.details{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(164, 160, 160,0.8);
+}
+
+.details h1 {
+    font-size: 20px;
+    margin: 0 0 40px 30px;
+    color: black;
+    text-shadow: 2px 2px white;
+    padding-top: 40px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+.numbers div {
+    width: 25%;
+    height: 250px;
+    border: 5px solid white;    
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.number1{
+    background: url(../css/images/image1.png) no-repeat;
+}
+
+.number2{
+    background: url(../css/images/image2.png);
+}
+
+.number3{
+    background: url(../css/images/image3.jpg);
 }
