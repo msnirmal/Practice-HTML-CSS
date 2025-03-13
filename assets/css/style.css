@@ -38,6 +38,11 @@ nav {
     width: 30%;
     justify-content: space-around;
     align-items: center;
+    
+}
+
+nav a {
+    color: black;
 }
 
 .hero{
@@ -47,6 +52,68 @@ nav {
     background-position: center;
     background-size: cover;
     margin-bottom: 20px;
+}
+
+.contact{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(164, 160, 160,0.8);
+}
+
+.contact h1 {
+    font-size: 20px;
+    margin: 0 0 40px 30px;
+    color: black;
+    text-shadow: 2px 2px white;
+    padding-top: 40px;
+}
+
+.formTable{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form input, textarea {
+    border-radius: 10px;
+    width: 300px;
+    padding: 7px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.form textarea{
+    height: 150px;
+    display: block;
+}
+
+.form label{
+    color: black;
+    text-shadow: 2px 2px white;
+    display: block;
+}
+
+.timeTable{
+    width: 25%;
+    border-collapse: collapse;
+}
+
+.timeTable td, th{
+    border: 2px solid black;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.timeTable tr:nth-child(even){
+    background-color: white;
+}
+
+.timeTable th {
+    font-size: 20px;    
+    background-color: rgb(132, 128, 128);
+    color: white;
+    
 }
 
 .details{
@@ -70,8 +137,8 @@ nav {
     
 }
 
-.numbers div {
-    width: 25%;
+.numbers a {
+    width: 30%;
     height: 250px;
     border: 5px solid white;    
     border-radius: 20px;
@@ -90,3 +157,4 @@ nav {
 .number3{
     background: url(../css/images/image3.jpg);
 }
+
